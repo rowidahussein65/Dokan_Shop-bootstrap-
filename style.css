@@ -44,12 +44,6 @@ body {
 .carousel-item img {
   filter: brightness(70%);
 }
-.carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
 .carousel-indicators [data-bs-target] {
   background-color: #ccc;
 }
@@ -184,6 +178,11 @@ footer a:hover,
     display: block !important;
 
     width: 90%;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover !important;
   }
 
   .carousel-caption h1,
